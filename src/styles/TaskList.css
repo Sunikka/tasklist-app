@@ -1,0 +1,30 @@
+.task-preview {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 10px auto;
+    border: 2px solid #623e3c;
+    color: #623e3c;
+    background-color: #ffab72;
+    /*box-shadow: 3px 1px 1px black; */
+    transition: padding 0.3s;
+}
+
+.task-preview:hover {
+    padding: 17px;
+}
+
+button {
+    padding: 10px;
+    color: #ffab72;
+    background-color: #fff;
+    border: 2px solid #ffab72;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: #fff;
+    border: 2px solid #623e3c;
+}

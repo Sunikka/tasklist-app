@@ -1,0 +1,37 @@
+.NewForm {
+    position:absolute;
+    right: 50px;
+    padding: 10px;
+    display: block;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 1px solid #f2f2f2;
+    border: 2px solid green;
+    border-radius: 20px;
+    background-color: #fff;
+    color: green;
+}
+
+
+button {
+    padding: 10px;
+    margin-top: 15px;
+    color: green;
+    background-color: #fff;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: #fff;
+    background-color: green;
+    border: 2px solid #fff;
+}
+
+#taskDesc {
+    resize: none;
+    height: 80px;
+}
